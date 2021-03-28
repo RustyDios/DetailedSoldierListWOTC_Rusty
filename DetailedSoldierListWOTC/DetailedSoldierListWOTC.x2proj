@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>6d317add-6a7a-486a-94b3-bebbb0e46b3e</Guid>
+    <Name>DetailedSoldierListWOTC</Name>
+    <Description>Clone of DetailedSoldierListWOTC for personal tweaks</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>DetailedSoldierListWOTC</AssemblyName>
+    <RootNamespace>DetailedSoldierListWOTC</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\DetailedSoldierListWOTC\" />
+    <Folder Include="Src\DetailedSoldierListWOTC\Classes\" />
+    <Folder Include="Src\LW_Tuple" />
+    <Folder Include="Src\LW_Tuple\Classes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\UILibrary_RustyDSL.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\DetailedSoldierListWOTC.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\DetailedSoldierListWOTC\Classes\MoreDetailsManager.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\DetailedSoldierListWOTC\Classes\MoreDetailsNavigatorWrapper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\DetailedSoldierListWOTC\Classes\UIPersonnel_SoldierListItemDetailed.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\DetailedSoldierListWOTC\Classes\X2DownloadableContentInfo_DetailedSoldierListWOTC.uc" />
+    <Content Include="Src\DetailedSoldierListWOTC\Classes\X2EventListener_StatusOfOfficer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LW_Tuple\Classes\LWTuple.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

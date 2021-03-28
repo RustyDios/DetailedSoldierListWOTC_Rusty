@@ -1,0 +1,5 @@
+[MoreDetailsManager]
+m_strToggleDetails="TOGGLE DETAILS"
+
+[X2EventListener_StatusOfOfficer]
+strOfficerAlreadySelectedStatus="OFFICER IN SQUAD"
